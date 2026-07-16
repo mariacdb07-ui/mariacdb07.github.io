@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f1ea;
+    color:#333;
+    line-height:1.6;
+}
+
+/* ENCABEZADO */
+
+header{
+    background:#5d4037;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+}
+
+header h1{
+    font-size:32px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ffd54f;
+}
+
+/* PORTADA */
+
+.hero{
+    height:500px;
+    background:url("imagenes/portada.jpeg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h2{
+    font-size:48px;
+    text-shadow:3px 3px 8px black;
+}
+
+.hero p{
+    width:70%;
+    margin-top:20px;
+    font-size:20px;
+    text-shadow:2px 2px 6px black;
+}
+
+/* SECCIONES */
+
+section{
+    padding:60px 80px;
+}
+
+section h2{
+    text-align:center;
+    color:#5d4037;
+    margin-bottom:30px;
+    font-size:35px;
+}
+
+/* TARJETAS */
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:220px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card h3{
+    color:#5d4037;
+}
+
+/* GALERÍA */
+
+.galeria{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.galeria img{
+    width:300px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.galeria img:hover{
+    transform:scale(1.05);
+}
+
+/* FORMULARIO */
+
+form{
+    width:450px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+input,
+textarea{
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button{
+    background:#5d4037;
+    color:white;
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#3e2723;
+    transform:scale(1.03);
+}
+
+/* INFORMACIÓN DE CONTACTO */
+
+.info-contacto{
+    text-align:center;
+    margin-top:40px;
+    line-height:2;
+}
+
+/* PIE DE PÁGINA */
+
+footer{
+    background:#5d4037;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
